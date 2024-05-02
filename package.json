@@ -1,8 +1,10 @@
 {
-  "name": "word-counter",
+  "name": "ms_cl_word-counter",
   "version": "1.0.0",
   "description": "WORD COUNTER<br>",
   "main": "index.js",
+  "type": "module",
+  "bin": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^5.3.0",
     "inquirer": "^9.2.20"
   },
   "devDependencies": {
